@@ -1,0 +1,11 @@
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\Mapa.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\Mapa.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\Aplicacion.Entidad.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\AutoMapper.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\Data.Entidad.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\Aplicacion.Entidad.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\Data.Entidad.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\bin\Debug\AutoMapper.xml
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\obj\Debug\Mapa.csprojResolveAssemblyReference.cache
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\obj\Debug\Mapa.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Mapa\obj\Debug\Mapa.pdb

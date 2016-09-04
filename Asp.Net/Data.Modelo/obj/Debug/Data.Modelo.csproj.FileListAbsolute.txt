@@ -1,0 +1,14 @@
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\Data.Modelo.dll.config
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\Data.Modelo.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\Data.Modelo.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\Data.Entidad.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\EntityFramework.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\Data.Entidad.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\EntityFramework.xml
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\obj\Debug\Data.Modelo.csprojResolveAssemblyReference.cache
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\obj\Debug\Data.Modelo.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Modelo\obj\Debug\Data.Modelo.pdb

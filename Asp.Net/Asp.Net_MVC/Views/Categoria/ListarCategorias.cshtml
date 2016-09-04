@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Asp.Net_MVC.Models.Categoria>
+
+@{
+    ViewBag.Title = "ListarCategorias";
+}
+
+<h2>ListarCategorias</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Categorias")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre_Categoria)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre_Categoria)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "ModificarCategorias", new { id=item.ID_Categoria }) |
+            @Html.ActionLink("Details", "DetalleCategorias", new { id=item.ID_Categoria }) |
+            @Html.ActionLink("Delete", "EliminarCategorias", new { id=item.ID_Categoria })
+        </td>
+    </tr>
+}
+
+</table>

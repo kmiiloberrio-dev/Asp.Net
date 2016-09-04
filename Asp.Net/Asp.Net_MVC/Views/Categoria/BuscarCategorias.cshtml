@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Asp.Net_MVC.Models.Categoria>
+
+@{
+    ViewBag.Title = "BuscarCategorias";
+}
+
+<h2>BuscarCategorias</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Categorias")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre_Categoria)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre_Categoria)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID_Categoria }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_Categoria }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_Categoria })
+        </td>
+    </tr>
+}
+</table>
+<br />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Buscar Categoria</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Filtro", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.Editor("Nombre", new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessage("Nombre")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Buscar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
