@@ -12,6 +12,8 @@ namespace Asp.Net_MVC.Models
         public int ID_Categoria { get; set; }
 
         [StringLength(50)]
+        [Required]
+        [Display(Name = "Nombre Categoria")]
         public string Nombre_Categoria { get; set; }
     }
 }
