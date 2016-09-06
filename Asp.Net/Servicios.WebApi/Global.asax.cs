@@ -19,7 +19,8 @@ namespace Servicios.WebApi
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            map.Mapear.CrearMapa();
+            map.Mapear.CrearMapaArticulo();
+            map.Mapear.CrearMapaCategoria();
         }
     }
 }

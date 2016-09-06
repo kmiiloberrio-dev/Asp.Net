@@ -16,7 +16,7 @@ namespace Aplicacion.Aplicacion
     {
         public Categoria()
         {
-            map.Mapear.CrearMapa();
+            map.Mapear.CrearMapaCategoria();
         }
 
         public async Task Registrar(ent.Categoria entidad)

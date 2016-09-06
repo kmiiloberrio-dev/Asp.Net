@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "CategoriasServicioDos";
+}
+
+<h2>CategoriasServicioDos</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Categorias")
+</p>
+<table id="tblList" class="table">
+    <thead>
+        <tr>
+            <th>NOMBRE CATEGORIA</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+@section scripts{
+    <script src="~/Scripts/Api/Categoria.js"></script>
+}

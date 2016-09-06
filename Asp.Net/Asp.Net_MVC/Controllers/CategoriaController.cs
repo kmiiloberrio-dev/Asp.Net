@@ -15,7 +15,7 @@ namespace Asp.Net_MVC.Controllers
     {
         public CategoriaController()
         {
-            map.Mapear.CrearMapa();
+            map.Mapear.CrearMapaCategoria();
         }
         // GET: Categoria
         public ActionResult Index()
@@ -122,6 +122,11 @@ namespace Asp.Net_MVC.Controllers
             var mapper = config.CreateMapper();
             IEnumerable<ent.Categoria> catelist = mapper.Map<IEnumerable<data.Categoria>, IEnumerable<ent.Categoria>>(cate);
             return View(catelist);
+        }
+
+        public ActionResult CategoriasServicioDos()
+        {
+            return View();
         }
     }
 }

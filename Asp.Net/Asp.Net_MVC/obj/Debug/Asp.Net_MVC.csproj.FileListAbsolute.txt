@@ -1,4 +1,3 @@
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\roslyn\csc.exe
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -47,8 +46,8 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\WebGre
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Entidad.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Mapa.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Dominio.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Repositorio.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Modelo.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Repositorio.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Aplicacion.Aplicacion.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Aplicacion.Entidad.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\AutoMapper.xml
@@ -79,8 +78,8 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Micros
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Entidad.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Mapa.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Dominio.pdb
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Repositorio.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Modelo.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Data.Repositorio.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\System.Web.Helpers.resources.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\System.Web.Mvc.resources.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\System.Web.Optimization.resources.dll
@@ -100,5 +99,6 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\Mic
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.pdb

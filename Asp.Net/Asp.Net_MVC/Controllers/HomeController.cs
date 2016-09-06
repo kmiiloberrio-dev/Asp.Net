@@ -5,11 +5,6 @@ namespace Asp.Net_MVC.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
-        {
-            map.Mapear.CrearMapa();
-        }
-
 
         public ActionResult Index()
         {

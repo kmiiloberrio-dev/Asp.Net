@@ -1,5 +1,4 @@
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Aplicacion.Entidad\bin\Debug\Aplicacion.Entidad.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Aplicacion.Entidad\bin\Debug\Aplicacion.Entidad.pdb
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Aplicacion.Entidad\obj\Debug\Aplicacion.Entidad.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Aplicacion.Entidad\obj\Debug\Aplicacion.Entidad.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Aplicacion.Entidad\obj\Debug\Aplicacion.Entidad.pdb
