@@ -6,6 +6,8 @@ using app = Aplicacion.Aplicacion;
 using AutoMapper;
 using map = Asp.Net_MVC.Mapa;
 using System.Threading.Tasks;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace Asp.Net_MVC.Controllers
 {
@@ -108,6 +110,18 @@ namespace Asp.Net_MVC.Controllers
             var mapper = config.CreateMapper();
             IEnumerable<ent.Categoria> cate = mapper.Map<IEnumerable<data.Categoria>, IEnumerable<ent.Categoria>>(listar);
             return View(cate);
+        }
+
+        public async Task<ActionResult> CategoriasServicio()
+        {
+
+            var httpClient = new HttpClient();
+            var json = await httpClient.GetStringAsync("http://localhost:8082/api/Categoria");
+            IEnumerable<data.Categoria> cate = JsonConvert.DeserializeObject<IEnumerable<data.Categoria>>(json);
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<data.Categoria, ent.Categoria>());
+            var mapper = config.CreateMapper();
+            IEnumerable<ent.Categoria> catelist = mapper.Map<IEnumerable<data.Categoria>, IEnumerable<ent.Categoria>>(cate);
+            return View(catelist);
         }
     }
 }

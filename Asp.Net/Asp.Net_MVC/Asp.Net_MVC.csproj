@@ -247,6 +247,7 @@
     <Content Include="Views\Categoria\EliminarCategorias.cshtml" />
     <Content Include="Views\Categoria\DetalleCategorias.cshtml" />
     <Content Include="Views\Categoria\BuscarCategorias.cshtml" />
+    <Content Include="Views\Categoria\CategoriasServicio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
