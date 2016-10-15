@@ -11,6 +11,7 @@ namespace Data.Repositorio
     {
         IQueryable<T> AsQueryable();
         Task<IEnumerable<T>> TraerTodo();
+        IEnumerable<T> TraerTodoDev();
         Task<IEnumerable<T>> Buscar(Expression<Func<T, bool>> predicado);
         Task<T> TraerUno(Expression<Func<T, bool>> predicado);
         Task<T> TraerUnoPorId(int id);

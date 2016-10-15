@@ -21,6 +21,7 @@ namespace Servicios.WebApi
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             map.Mapear.CrearMapaArticulo();
             map.Mapear.CrearMapaCategoria();
+            map.Mapear.CrearMapaProducto();
         }
     }
 }

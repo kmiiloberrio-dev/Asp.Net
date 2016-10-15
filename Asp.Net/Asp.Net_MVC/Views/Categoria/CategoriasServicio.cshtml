@@ -7,7 +7,7 @@
 <h2>CategoriasServicio</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Categorias")
+    @Html.ActionLink("Create New", "RegistrarCategoriaServicio")
 </p>
 <table class="table">
     <tr>
@@ -23,9 +23,9 @@
             @Html.DisplayFor(modelItem => item.Nombre_Categoria)
         </td>
         <td>
-            @Html.ActionLink("Edit", "ModificarCategorias", new { id=item.ID_Categoria }) |
-            @Html.ActionLink("Details", "DetalleCategorias", new { id=item.ID_Categoria }) |
-            @Html.ActionLink("Delete", "EliminarCategorias", new { id=item.ID_Categoria })
+            @Html.ActionLink("Edit", "ModificarCategoriaServicio", new { id=item.ID_Categoria }) |
+            @Html.ActionLink("Details", "DetalleCategoriaServicio", new { id=item.ID_Categoria }) |
+            @Html.ActionLink("Delete", "EliminarCategoriaServicio", new { id=item.ID_Categoria })
         </td>
     </tr>
 }

@@ -19,5 +19,10 @@ namespace Asp.Net_MVC.Mapa
         {
             Mapper.Initialize(createmap => { createmap.CreateMap<ent.Articulo, data.Articulo>(); createmap.CreateMap<data.Articulo, ent.Articulo>(); });
         }
+
+        public static void CrearMapaProducto()
+        {
+            Mapper.Initialize(createmap => { createmap.CreateMap<ent.Producto, data.Producto>(); createmap.CreateMap<data.Producto, ent.Producto>(); });
+        }
     }
 }

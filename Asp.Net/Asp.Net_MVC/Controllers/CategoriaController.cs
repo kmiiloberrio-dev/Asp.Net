@@ -8,6 +8,7 @@ using map = Asp.Net_MVC.Mapa;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace Asp.Net_MVC.Controllers
 {
@@ -35,7 +36,7 @@ namespace Asp.Net_MVC.Controllers
         {
             var _entidad = Mapper.Map<ent.Categoria, data.Categoria>(entidad);
             await new app.Categoria().Registrar(_entidad);
-            return View();
+            return RedirectToAction("ListarCategorias");
         }
 
         public async Task<ActionResult> ModificarCategorias(int id)
@@ -53,7 +54,7 @@ namespace Asp.Net_MVC.Controllers
         {
             var _entidad = Mapper.Map<ent.Categoria, data.Categoria>(entidad);
             await new app.Categoria().Modificar(_entidad);
-            return View();
+            return RedirectToAction("ListarCategorias");
         }
 
         public async Task<ActionResult> EliminarCategorias(int id)
@@ -105,7 +106,16 @@ namespace Asp.Net_MVC.Controllers
         [HttpPost]
         public async Task<ActionResult> BuscarCategorias(string Nombre)
         {
-            IEnumerable<data.Categoria> listar = await new app.Categoria().Buscar(Nombre);
+            IEnumerable<data.Categoria> listar;
+            if (Nombre != string.Empty)
+            {
+                listar = await new app.Categoria().Buscar(Nombre);
+            }
+            else
+            {
+                listar = await new app.Categoria().TraerTodo();
+            }
+
             var config = new MapperConfiguration(cfg => cfg.CreateMap<data.Categoria, ent.Categoria>());
             var mapper = config.CreateMapper();
             IEnumerable<ent.Categoria> cate = mapper.Map<IEnumerable<data.Categoria>, IEnumerable<ent.Categoria>>(listar);
@@ -127,6 +137,73 @@ namespace Asp.Net_MVC.Controllers
         public ActionResult CategoriasServicioDos()
         {
             return View();
+        }
+
+        public ActionResult RegistrarCategoriaServicio()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> RegistrarCategoriaServicio(ent.Categoria entidad)
+        {
+            var httpClient = new HttpClient();
+            HttpResponseMessage responseMessage = await httpClient.PostAsJsonAsync("http://localhost:8082/api/Categoria", entidad);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("CategoriasServicio");
+            }
+            return RedirectToAction("Error");
+        }
+
+        public async Task<ActionResult> ModificarCategoriaServicio(int id)
+        {
+            ViewBag.Message = "Modificar categoria.";
+            var httpClient = new HttpClient();
+            var json = await httpClient.GetStringAsync("http://localhost:8082/api/Categoria/" + id);
+            data.Categoria cate = JsonConvert.DeserializeObject<data.Categoria>(json);
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<data.Categoria, ent.Categoria>());
+            var mapper = config.CreateMapper();
+            ent.Categoria catelist = mapper.Map<data.Categoria, ent.Categoria>(cate);
+            return View(catelist);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> ModificarCategoriaServicio(ent.Categoria entidad)
+        {
+
+            var httpClient = new HttpClient();
+            HttpResponseMessage responseMessage = await httpClient.PutAsJsonAsync("http://localhost:8082/api/Categoria", entidad);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("CategoriasServicio");
+            }
+            return RedirectToAction("Error");
+        }
+
+        public async Task<ActionResult> EliminarCategoriaServicio(int id)
+        {
+            ViewBag.Message = "Modificar categoria.";
+            var httpClient = new HttpClient();
+            var json = await httpClient.GetStringAsync("http://localhost:8082/api/Categoria/" + id);
+            data.Categoria cate = JsonConvert.DeserializeObject<data.Categoria>(json);
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<data.Categoria, ent.Categoria>());
+            var mapper = config.CreateMapper();
+            ent.Categoria catelist = mapper.Map<data.Categoria, ent.Categoria>(cate);
+            return View(catelist);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> EliminarCategoriaServicio(ent.Categoria entidad)
+        {
+
+            var httpClient = new HttpClient();
+            HttpResponseMessage responseMessage = await httpClient.DeleteAsync("http://localhost:8082/api/Categoria/"+ entidad.ID_Categoria);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("CategoriasServicio");
+            }
+            return RedirectToAction("Error");
         }
     }
 }

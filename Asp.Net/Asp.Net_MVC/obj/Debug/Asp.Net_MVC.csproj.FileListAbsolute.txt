@@ -102,3 +102,10 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\Mic
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Extensions.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Primitives.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.WebRequest.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.xml
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.WebRequest.xml

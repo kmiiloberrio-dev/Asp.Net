@@ -26,24 +26,65 @@ namespace Servicios.WebApi.Controllers
         }
 
         // GET: api/Categoria/5
-        public string Get(int id)
+        public async Task<HttpResponseMessage> Get(int id)
         {
-            return "value";
+            var dato = await new app.Categoria().TraerUnoPorId(id);
+            var httpResponseMessage = Request.CreateResponse<ent.Categoria>(HttpStatusCode.OK, dato);
+            httpResponseMessage.Headers.Add("Access-Control-Allow-Origin", "*");
+            httpResponseMessage.Headers.CacheControl = new System.Net.Http.Headers.CacheControlHeaderValue()
+            {
+                MaxAge = TimeSpan.FromMinutes(1)
+            };
+            return httpResponseMessage;
         }
 
         // POST: api/Categoria
-        public void Post([FromBody]string value)
+        public async Task<HttpResponseMessage> PostCategoria([FromBody]ent.Categoria categoria)
         {
+            try
+            {
+                await new app.Categoria().Registrar(categoria);
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, categoria);
+                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = categoria.ID_Categoria }));
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
+
         }
 
         // PUT: api/Categoria/5
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        public async Task<HttpResponseMessage> PutCategoria(ent.Categoria categoria)
         {
+            try
+            {
+                await new app.Categoria().Modificar(categoria);
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, categoria);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
         }
 
         // DELETE: api/Categoria/5
-        public void Delete(int id)
+        public async Task<HttpResponseMessage> Delete(int id)
         {
+            try
+            {
+                ent.Categoria cate = await new app.Categoria().TraerUnoPorId(id);
+                await new app.Categoria().Eliminar(cate);
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, id);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
         }
     }
 }

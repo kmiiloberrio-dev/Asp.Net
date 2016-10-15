@@ -7,5 +7,6 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\bin\D
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\bin\Debug\es\EntityFramework.resources.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\obj\Debug\Data.Repositorio.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\obj\Debug\Data.Repositorio.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Repositorio\obj\Debug\Data.Repositorio.pdb

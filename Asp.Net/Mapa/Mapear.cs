@@ -13,7 +13,6 @@ namespace Mapa
     {
         public static void CrearMapaCategoria()
         {
-
             Mapper.Initialize(createmap => { createmap.CreateMap<ent.Categoria, data.Categoria>(); createmap.CreateMap<data.Categoria, ent.Categoria>(); });
 
         }
@@ -22,6 +21,12 @@ namespace Mapa
         {
 
             Mapper.Initialize(createmap => { createmap.CreateMap<ent.Articulo, data.Articulos>(); createmap.CreateMap<data.Articulos, ent.Articulo>(); });
+
+        }
+
+        public static void CrearMapaProducto()
+        {
+            Mapper.Initialize(createmap => { createmap.CreateMap<ent.Producto, data.Producto>(); createmap.CreateMap<data.Producto, ent.Producto>(); });
 
         }
     }

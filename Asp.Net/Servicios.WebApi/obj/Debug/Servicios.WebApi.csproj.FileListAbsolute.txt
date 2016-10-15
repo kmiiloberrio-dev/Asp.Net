@@ -34,8 +34,8 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\S
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\System.Web.WebPages.Razor.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\WebGrease.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Data.Entidad.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\AutoMapper.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Dominio.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\AutoMapper.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Data.Modelo.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Data.Repositorio.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Aplicacion.Aplicacion.pdb
@@ -57,8 +57,8 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\S
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\System.Web.WebPages.Razor.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Antlr3.Runtime.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Data.Entidad.pdb
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\AutoMapper.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Dominio.pdb
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\AutoMapper.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Data.Modelo.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\Data.Repositorio.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Servicios.WebApi\bin\es\EntityFramework.resources.dll

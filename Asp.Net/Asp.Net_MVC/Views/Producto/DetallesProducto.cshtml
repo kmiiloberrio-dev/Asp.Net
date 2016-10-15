@@ -1,0 +1,42 @@
+﻿@model Asp.Net_MVC.Models.Producto
+
+@{
+    ViewBag.Title = "DetallesProducto";
+}
+
+<h2>DetallesProducto</h2>
+
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_Categoria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "ModificarProducto", new {  Id = Model.ID_Producto }) |
+    @Html.ActionLink("Back to List", "ListarProductos")
+</p>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Asp.Net_MVC.Models.Producto>
+
+@{
+    ViewBag.Title = "ListarProductos";
+}
+
+<h2>ListarProductos</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_Producto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre_Producto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_Categoria)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_Producto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre_Producto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_Categoria)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "ModificarProducto", new { Id = item.ID_Producto }) |
+                @Html.ActionLink("Details", "DetallesProducto", new { Id=item.ID_Producto }) |
+                @Html.ActionLink("Delete", "EliminarProducto", new {  Id=item.ID_Producto })
+            </td>
+        </tr>
+    }
+
+</table>

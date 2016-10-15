@@ -25,6 +25,10 @@ namespace Data.Repositorio
         {
             return await _context.Set<T>().ToListAsync();
         }
+        public IEnumerable<T> TraerTodoDev()
+        {
+            return _context.Set<T>().ToList();
+        }
 
         public async Task<IEnumerable<T>> Buscar(System.Linq.Expressions.Expression<Func<T, bool>> predicado)
         {

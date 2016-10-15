@@ -1,0 +1,49 @@
+﻿@model Asp.Net_MVC.Models.Producto
+
+@{
+    ViewBag.Title = "EliminarProducto";
+}
+
+<h2>EliminarProducto</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre_Producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre_Producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_Categoria)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.ID_Producto)
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "ListarProductos")
+        </div>
+    }
+</div>
