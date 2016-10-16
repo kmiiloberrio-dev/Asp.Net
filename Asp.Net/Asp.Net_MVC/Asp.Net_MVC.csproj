@@ -286,6 +286,8 @@
     <Content Include="Views\Categoria\ModificarCategoriaServicio.cshtml" />
     <Content Include="Views\Categoria\EliminarCategoriaServicio.cshtml" />
     <Content Include="Views\Transacciones\RegistrarCategoriaProducto.cshtml" />
+    <Content Include="Views\Transacciones\RegistrarCategoriaProductoServicio.cshtml" />
+    <Content Include="Views\Transacciones\RegistrarListaCategoriaProducto.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

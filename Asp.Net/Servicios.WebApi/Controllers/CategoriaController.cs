@@ -39,7 +39,7 @@ namespace Servicios.WebApi.Controllers
         }
 
         // POST: api/Categoria
-        public async Task<HttpResponseMessage> PostCategoria([FromBody]ent.Categoria categoria)
+        public async Task<HttpResponseMessage> PostCategoria(ent.Categoria categoria)
         {
             try
             {
@@ -50,7 +50,7 @@ namespace Servicios.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
 
         }
@@ -67,7 +67,7 @@ namespace Servicios.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
 
@@ -79,11 +79,12 @@ namespace Servicios.WebApi.Controllers
                 ent.Categoria cate = await new app.Categoria().TraerUnoPorId(id);
                 await new app.Categoria().Eliminar(cate);
                 HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, id);
+                response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return response;
             }
             catch (Exception ex)
             {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
     }

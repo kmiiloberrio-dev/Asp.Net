@@ -23,5 +23,14 @@ namespace Aplicacion.Aplicacion
             await new dom.TransaccionCategoriaProducto().RegistrarTransaccionCategoriaProducto(_categoria, _producto);
 
         }
+
+        public async Task RegistrarListaTransaccionCategoriaProducto(ent.Categoria cate, List<ent.Producto> prod)
+        {
+            map.Mapear.CrearMapaCategoria();
+            data.Categoria _categoria = Mapper.Map<ent.Categoria, data.Categoria>(cate);
+            map.Mapear.CrearMapaProducto();
+            List<data.Producto> _producto = Mapper.Map<List<ent.Producto>, List<data.Producto>>(prod);
+            await new dom.TransaccionCategoriaProducto().RegistrarListaTransaccionCategoriaProducto(_categoria, _producto);
+        }
     }
 }

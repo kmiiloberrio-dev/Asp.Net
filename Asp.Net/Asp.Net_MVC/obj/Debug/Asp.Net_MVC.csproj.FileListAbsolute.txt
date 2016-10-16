@@ -35,6 +35,11 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Micros
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Newtonsoft.Json.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Owin.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Extensions.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Primitives.dll
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.WebRequest.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Web.Helpers.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Web.Mvc.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Web.Optimization.dll
@@ -52,6 +57,8 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Aplica
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Aplicacion.Entidad.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\AutoMapper.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.xml
+C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.WebRequest.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Web.Helpers.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Web.Mvc.xml
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Web.Optimization.xml
@@ -102,10 +109,3 @@ C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\es\Mic
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\obj\Debug\Asp.Net_MVC.pdb
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Extensions.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Formatting.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.Primitives.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.WebRequest.dll
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.xml
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Asp.Net_MVC\bin\System.Net.Http.WebRequest.xml

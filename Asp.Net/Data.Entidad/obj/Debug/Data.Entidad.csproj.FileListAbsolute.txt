@@ -1,5 +1,4 @@
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Entidad\bin\Debug\Data.Entidad.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Entidad\bin\Debug\Data.Entidad.pdb
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Entidad\obj\Debug\Data.Entidad.csprojResolveAssemblyReference.cache
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Entidad\obj\Debug\Data.Entidad.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Data.Entidad\obj\Debug\Data.Entidad.pdb

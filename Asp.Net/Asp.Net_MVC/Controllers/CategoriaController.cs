@@ -70,8 +70,8 @@ namespace Asp.Net_MVC.Controllers
         [HttpPost]
         public async Task<ActionResult> EliminarCategorias(ent.Categoria entidad)
         {
-            var _entidad = Mapper.Map<ent.Categoria, data.Categoria>(entidad);
-            await new app.Categoria().Eliminar(_entidad);
+            data.Categoria listar = await new app.Categoria().TraerUnoPorId(entidad.ID_Categoria);
+            await new app.Categoria().Eliminar(listar);
             return RedirectToAction("ListarCategorias");
         }
 
@@ -198,7 +198,7 @@ namespace Asp.Net_MVC.Controllers
         {
 
             var httpClient = new HttpClient();
-            HttpResponseMessage responseMessage = await httpClient.DeleteAsync("http://localhost:8082/api/Categoria/"+ entidad.ID_Categoria);
+            HttpResponseMessage responseMessage = await httpClient.DeleteAsync("http://localhost:8082/api/Categoria/"+ entidad.ID_Categoria.ToString());
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("CategoriasServicio");

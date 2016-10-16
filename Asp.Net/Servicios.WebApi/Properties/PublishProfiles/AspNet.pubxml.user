@@ -79,43 +79,43 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/Aplicacion.Aplicacion.dll">
-      <publishTime>10/14/2016 23:39:32</publishTime>
+      <publishTime>10/15/2016 20:42:04</publishTime>
     </File>
     <File Include="bin/Aplicacion.Aplicacion.pdb">
-      <publishTime>10/14/2016 23:39:32</publishTime>
+      <publishTime>10/15/2016 20:42:04</publishTime>
     </File>
     <File Include="bin/Aplicacion.Entidad.dll">
-      <publishTime>10/14/2016 21:58:06</publishTime>
+      <publishTime>10/15/2016 20:34:06</publishTime>
     </File>
     <File Include="bin/Aplicacion.Entidad.pdb">
-      <publishTime>10/14/2016 21:58:06</publishTime>
+      <publishTime>10/15/2016 20:34:06</publishTime>
     </File>
     <File Include="bin/AutoMapper.dll">
       <publishTime>07/07/2016 18:53:02</publishTime>
     </File>
     <File Include="bin/Data.Entidad.dll">
-      <publishTime>10/14/2016 21:58:06</publishTime>
+      <publishTime>10/15/2016 20:41:34</publishTime>
     </File>
     <File Include="bin/Data.Entidad.pdb">
-      <publishTime>10/14/2016 21:58:06</publishTime>
+      <publishTime>10/15/2016 20:41:34</publishTime>
     </File>
     <File Include="bin/Data.Modelo.dll">
-      <publishTime>10/14/2016 21:58:07</publishTime>
+      <publishTime>10/15/2016 20:41:34</publishTime>
     </File>
     <File Include="bin/Data.Modelo.pdb">
-      <publishTime>10/14/2016 21:58:07</publishTime>
+      <publishTime>10/15/2016 20:41:34</publishTime>
     </File>
     <File Include="bin/Data.Repositorio.dll">
-      <publishTime>10/14/2016 21:58:06</publishTime>
+      <publishTime>10/15/2016 20:34:06</publishTime>
     </File>
     <File Include="bin/Data.Repositorio.pdb">
-      <publishTime>10/14/2016 21:58:06</publishTime>
+      <publishTime>10/15/2016 20:34:06</publishTime>
     </File>
     <File Include="bin/Dominio.dll">
-      <publishTime>10/14/2016 23:37:08</publishTime>
+      <publishTime>10/15/2016 20:42:03</publishTime>
     </File>
     <File Include="bin/Dominio.pdb">
-      <publishTime>10/14/2016 23:37:07</publishTime>
+      <publishTime>10/15/2016 20:42:03</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -160,10 +160,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/28/2015 04:04:36</publishTime>
     </File>
     <File Include="bin/Mapa.dll">
-      <publishTime>10/14/2016 23:31:34</publishTime>
+      <publishTime>10/15/2016 20:42:03</publishTime>
     </File>
     <File Include="bin/Mapa.pdb">
-      <publishTime>10/14/2016 23:31:34</publishTime>
+      <publishTime>10/15/2016 20:42:03</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>06/15/2015 02:06:24</publishTime>
@@ -211,10 +211,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/Servicios.WebApi.dll">
-      <publishTime>10/14/2016 23:39:40</publishTime>
+      <publishTime>10/15/2016 20:42:11</publishTime>
     </File>
     <File Include="bin/Servicios.WebApi.pdb">
-      <publishTime>10/14/2016 23:39:40</publishTime>
+      <publishTime>10/15/2016 20:42:11</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>01/28/2015 04:02:42</publishTime>
@@ -322,7 +322,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/04/2016 20:55:34</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/14/2016 21:58:31</publishTime>
+      <publishTime>10/15/2016 20:45:23</publishTime>
     </File>
   </ItemGroup>
 </Project>

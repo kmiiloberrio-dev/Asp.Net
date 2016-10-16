@@ -8,6 +8,13 @@ namespace Asp.Net_MVC.Models
 {
     public class CategoriaTransaccion
     {
+        public Categoria categoria { get; set; }
+
+        public Producto producto { get; set; }
+    }
+
+    public class ListaCategoriaProductoTransaccion
+    {
         [Key]
         public int ID_Categoria { get; set; }
 
@@ -16,6 +23,6 @@ namespace Asp.Net_MVC.Models
         [Display(Name = "Nombre Categoria")]
         public string Nombre_Categoria { get; set; }
 
-        public Producto producto { get; set; }
+        public List<Producto> DetalleProducto { get; set; }
     }
 }

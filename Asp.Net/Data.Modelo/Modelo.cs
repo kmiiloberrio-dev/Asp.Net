@@ -23,11 +23,6 @@
                 .Property(e => e.Descripción)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<Categoria>()
-                .HasMany(e => e.Producto)
-                .WithRequired(e => e.Categoria)
-                .WillCascadeOnDelete(false);
-
             modelBuilder.Entity<Producto>()
                 .HasMany(e => e.Articulos)
                 .WithRequired(e => e.Producto)
