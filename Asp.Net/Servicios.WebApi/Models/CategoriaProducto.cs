@@ -11,4 +11,10 @@ namespace Servicios.WebApi.Models
         public ent.Categoria categoria { get; set; }
         public ent.Producto producto { get; set; }
     }
+
+    public class ListaCategoriaProducto
+    {
+        public ent.Categoria categoria { get; set; }
+        public List<ent.Producto> producto { get; set; }
+    }
 }

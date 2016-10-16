@@ -29,6 +29,23 @@ namespace Servicios.WebApi.Controllers
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
             }
+        }
+
+        [Route("api/PostListTransaccionCategoriaProducto")]
+        public async Task<HttpResponseMessage> PostListTransaccionCategoriaProducto(mod.ListaCategoriaProducto cateprod)
+        {
+            try
+            {
+                ent.Categoria cate = cateprod.categoria;
+                List<ent.Producto> prod = cateprod.producto;
+                await new app.TransaccionCategoriaProducto().RegistrarListaTransaccionCategoriaProducto(cate, prod);
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, cate.Nombre_Categoria);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
 
         }
 

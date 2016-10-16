@@ -205,5 +205,14 @@ namespace Asp.Net_MVC.Controllers
             }
             return RedirectToAction("Error");
         }
+
+        public ActionResult TraerTodoInnerJoinCateProd()
+        {
+            IEnumerable<data.Categoria> listar = new app.Categoria().TraerInnerJoinCateProd();
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<data.Categoria, ent.Categoria>());
+            var mapper = config.CreateMapper();
+            IEnumerable<ent.Categoria> cate = mapper.Map<IEnumerable<data.Categoria>, IEnumerable<ent.Categoria>>(listar);
+            return View(cate);
+        }
     }
 }

@@ -4,6 +4,7 @@ using ent = Data.Entidad;
 using Data.Modelo;
 using Data.Repositorio;
 using System;
+using System.Linq;
 
 namespace Dominio
 {
@@ -125,6 +126,27 @@ namespace Dominio
             catch (Exception ex)
             {
                 throw new Exception("Error TraerTodoDev", ex.InnerException);
+            }
+        }
+
+        public IEnumerable<ent.Categoria> TraerInnerJoinCateProd()
+        {
+            try
+            {
+                using (Modelo modelo = new Modelo())
+                {
+                    var query = from c in modelo.Categoria join p in modelo.Producto
+                                on c.ID_Categoria equals p.ID_Categoria
+                                select (new ent.Categoria()
+                                {
+
+                                });
+                    return query.ToList();
+                }
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Error en traer inner join", ex.InnerException);
             }
         }
     }

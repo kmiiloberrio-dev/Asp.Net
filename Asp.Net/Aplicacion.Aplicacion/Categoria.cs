@@ -76,5 +76,12 @@ namespace Aplicacion.Aplicacion
             return Resultado;
         }
 
+        public IEnumerable<ent.Categoria> TraerInnerJoinCateProd()
+        {
+            map.Mapear.CrearMapaCategoria();
+            var DetalleQuery = new dom.Categoria().TraerInnerJoinCateProd();
+            var Resultado = Mapper.Map<IEnumerable<data.Categoria>, IEnumerable<ent.Categoria>>(DetalleQuery);
+            return Resultado;
+        }
     }
 }

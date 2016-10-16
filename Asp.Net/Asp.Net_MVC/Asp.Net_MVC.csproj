@@ -288,6 +288,8 @@
     <Content Include="Views\Transacciones\RegistrarCategoriaProducto.cshtml" />
     <Content Include="Views\Transacciones\RegistrarCategoriaProductoServicio.cshtml" />
     <Content Include="Views\Transacciones\RegistrarListaCategoriaProducto.cshtml" />
+    <Content Include="Views\Transacciones\RegistrarListaCategoriaProductoServicio.cshtml" />
+    <Content Include="Views\Categoria\TraerTodoInnerJoinCateProd.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

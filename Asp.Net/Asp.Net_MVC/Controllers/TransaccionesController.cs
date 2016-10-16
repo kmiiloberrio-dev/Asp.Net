@@ -90,5 +90,57 @@ namespace Asp.Net_MVC.Controllers
 
             return new JsonResult { Data = new { status = status } };
         }
+
+
+        public ActionResult RegistrarListaCategoriaProductoServicio()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> RegistrarListaCategoriaProductoServicio(ent.ListaCategoriaProductoTransaccion entidad)
+        {
+
+            bool status = false;
+            ent.Categoria cate = new ent.Categoria()
+            {
+                Nombre_Categoria = entidad.Nombre_Categoria
+            };
+
+            List<ent.Producto> prod = new List<ent.Producto>();
+            foreach (var item in entidad.DetalleProducto)
+            {
+                prod.Add(new ent.Producto()
+                {
+                    Nombre_Producto = item.Nombre_Producto
+                });
+            }
+
+            ent.ListaCategoriaProductoTransaccionServicio cateprodu = new Models.ListaCategoriaProductoTransaccionServicio()
+            {
+                categoria = cate,
+                producto = prod
+            };
+
+            try
+            {
+
+
+                var httpClient = new HttpClient();
+                HttpResponseMessage responseMessage = await httpClient.PostAsJsonAsync("http://localhost:8082/api/PostListTransaccionCategoriaProducto", cateprodu);
+                if (responseMessage.IsSuccessStatusCode)
+                {
+                    status = true;
+                    return new JsonResult { Data = new { status = status } };
+                }
+
+            }
+            catch
+            {
+                status = false;
+            }
+
+            return new JsonResult { Data = new { status = status } };
+        }
     }
 }

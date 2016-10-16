@@ -25,4 +25,11 @@ namespace Asp.Net_MVC.Models
 
         public List<Producto> DetalleProducto { get; set; }
     }
+
+    public class ListaCategoriaProductoTransaccionServicio
+    {
+        public Categoria categoria { get; set; }
+
+        public List<Producto> producto { get; set; }
+    }
 }

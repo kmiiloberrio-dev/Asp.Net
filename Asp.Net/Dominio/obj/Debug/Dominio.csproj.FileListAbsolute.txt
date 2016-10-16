@@ -1,4 +1,3 @@
-C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Dominio\bin\Debug\Dominio.dll.config
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Dominio\bin\Debug\Dominio.dll
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Dominio\bin\Debug\Dominio.pdb
 C:\Users\GEORGE_CALDERON\Documents\GitHub\Asp.Net\Asp.Net\Dominio\bin\Debug\Data.Entidad.dll
